@@ -1,4 +1,3 @@
-"use client";
 import Header from "@/components/custom/header";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
@@ -11,6 +10,7 @@ import {
     CardHeader,
     CardTitle,
 } from "@/components/ui/card";
+import { SignInWithGitHub } from "@/components/custom/githubAuth";
 
 const Home = () => {
     return (
@@ -23,14 +23,7 @@ const Home = () => {
                     Let AI handle the grunt work of pull request reviews — so
                     you can focus on what matters.
                 </p>
-                <Button
-                    className="sign-in-button"
-                    onClick={() => {
-                        alert("GitHub sign-in is not implemented yet.");
-                    }}
-                >
-                    Sign In with GitHub
-                </Button>
+                <SignInWithGitHub />
                 <p className="text-sm">
                     21-day free trial | No Credit Card needed
                 </p>

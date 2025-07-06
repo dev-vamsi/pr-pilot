@@ -1,5 +1,5 @@
 import React from "react";
-import { Button } from "../ui/button";
+import { SignInWithGitHub } from "./githubAuth";
 
 const Header = () => {
     return (
@@ -10,7 +10,7 @@ const Header = () => {
                 </span>
                 Pilot
             </h1>
-            <Button>Sign In with GitHub</Button>
+            <SignInWithGitHub />
         </div>
     );
 };
