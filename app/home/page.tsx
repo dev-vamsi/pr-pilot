@@ -35,7 +35,7 @@ const Home = () => {
                     21-day free trial | No Credit Card needed
                 </p>
             </div>
-            <div className="cards grid grid-cols-3 gap-3 mx-10 my-5">
+            <div className="cards grid grid-cols-1 xl:grid-cols-3 gap-3 lg:mx-10 my-5">
                 <div className="card-item" id="card-1">
                     <Card>
                         <CardHeader>
